@@ -2,7 +2,7 @@ from flask import Flask
 
 # factory
 def create_app():
-    [ ... ]
+    app = Flask(__name__)
 
     # register pet blueprint 
     from . import pet
